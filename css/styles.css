@@ -1,0 +1,45 @@
+.container{
+   display: flex;
+    width: 700px;
+    margin: 0 auto;
+    align-items: center;
+}
+img{
+    /* display: block; */
+    width: 100%;
+}
+.product-img{
+    display: block;
+    width: 300px;
+}
+.product-description{
+    width: 300px;
+    display: block;
+    padding: 30px;
+}
+.product-description h2, p{
+    font-family: 'Manrope', sans-serif;
+    color: rgb(112, 104, 93);
+}
+.product-description h1{
+    font-family: 'Fraunces', serif;
+    }
+.price{
+    color: rgb(14, 76, 99);
+}
+del{
+    font-size: 20px;
+    color: rgb(112, 104, 93);
+}
+button{
+    background-color:  rgb(14, 76, 99);
+    color: white;
+    border-radius: 15px;
+    width: 100%;
+    border: none;
+    height: 45px;
+    font-size: 25px;
+}
+.icon{
+    color: red;
+}
